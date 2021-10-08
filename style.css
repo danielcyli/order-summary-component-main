@@ -22,13 +22,10 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: var(--pale-blue);
-  /* background-color: green; */
   background-image: url(./images/pattern-background-mobile.svg);
-  /* position: relative; */
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
-  /* min-height: 17.5rem; */
   padding: 71px 24px;
   display: flex;
   justify-content: center;
@@ -39,13 +36,11 @@ body {
   background-color: white;
   width: 100%;
   height: 100%;
-  /* height: 100%; */
-  /* height: 100%; */
   max-height: 575px;
   max-width: 325px;
   overflow: hidden;
   border-radius: 20px;
-  /* box-shadow: ; */
+  box-shadow: 0 0 50px 5px rgba(0,0,0,0.12);
 }
 @media (min-width: 900px) {
   body {
@@ -96,7 +91,6 @@ body {
 
 .card__plan {
   display: flex;
-  /* justify-content:space-between; */
   align-items: center;
   margin-bottom: 24px;
   background-color: var(--very-pale-blue);
@@ -110,7 +104,6 @@ body {
   margin-right: 20px;
 }
 .card__price {
-  /* margin-right: 48px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
